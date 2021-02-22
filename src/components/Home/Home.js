@@ -37,7 +37,7 @@ export default function Home() {
               </p>
               <div className="buttonContainer">
                 <button>
-                  <a href="/">Executive Summary</a>{" "}
+                  <a href="/">Executive Summary 5pp.</a>{" "}
                   <img
                     src={PdfDownload}
                     alt="PDF Download Icon"
@@ -45,7 +45,7 @@ export default function Home() {
                   />
                 </button>
                 <button>
-                  <a href="/">Final Report</a>{" "}
+                  <a href="/">Final Report 81pp.</a>{" "}
                   <img
                     src={PdfDownload}
                     alt="PDF Download Icon"
@@ -67,14 +67,18 @@ export default function Home() {
               />
             </div>
             <div className="boxFour">
-              <p>Wednesday, February 24</p>
+              <p>Wednesday, February 24, 2021</p>
+              <p>7 PM UTC-06</p>
             </div>
           </div>
         </div>
-      </section>
-      <section className="homeThree">
-        <button className="button">Change.org</button>
-        <Timeline />
+        <div className="changeContainer">
+          <button className="button change">Change.org</button>
+        </div>
+
+        <div className="timelineContainer">
+          <Timeline />
+        </div>
       </section>
     </div>
   );

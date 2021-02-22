@@ -80,7 +80,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>March- September 2020</h3>{" "}
+          <h3>March-September 2020</h3>{" "}
           <p>
             Fundraising was done to purchase equipment for the Grandview Medical
             Clinic to be better equipped to handle possible Covid 19 outbreaks.
