@@ -28,7 +28,31 @@
   padding: 30px;
 }
 
+.Home .reportContainer {
+  display: flex;
+}
+
+.Home .reportImage {
+  width: 100%;
+  height: auto;
+}
+
 .Home .pdfIcon {
-  width: 130px;
+  width: 25px;
+  height: auto;
+}
+
+.Home .buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home .eventContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wabKinew {
+  width: 300px;
   height: auto;
 }
