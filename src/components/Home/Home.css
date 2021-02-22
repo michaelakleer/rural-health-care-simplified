@@ -1,32 +1,34 @@
 .Home .homeOne {
   padding: 18.25rem 150px 14rem 250px;
   text-align: right;
-  background: #0f9fc7;
+  background: #f7f7f7;
   line-height: 50px;
 }
 
 .Home .homeTwo {
-  background: #fff;
-  padding: 30px;
+  background: #ffffff;
   text-align: center;
 }
 
-.Home .homeThree {
-  background: #fff;
-  padding: 30px;
-  border-left: 1px solid #282d33;
-  text-align: center;
+.Home .container {
+  display: grid;
 }
 
 .Home h1 {
-  color: #fff;
+  color: #000;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
 }
 
-.Home .homeTwo,
-.Home .homeThree {
+.Home .pdfs,
+.Home .events {
   float: left;
   width: 50%;
-  padding: 130px 150px;
+  text-align: center;
+  padding: 30px;
+}
+
+.Home .pdfIcon {
+  width: 130px;
+  height: auto;
 }
