@@ -1,0 +1,32 @@
+.Home .homeOne {
+  padding: 18.25rem 150px 14rem 250px;
+  text-align: right;
+  background: #0f9fc7;
+  line-height: 50px;
+}
+
+.Home .homeTwo {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.Home .homeThree {
+  background: #fff;
+  padding: 30px;
+  border-left: 1px solid #282d33;
+  text-align: center;
+}
+
+.Home h1 {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+
+.Home .homeTwo,
+.Home .homeThree {
+  float: left;
+  width: 50%;
+  padding: 130px 150px;
+}
