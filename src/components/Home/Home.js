@@ -1,6 +1,8 @@
 import React from "react";
 import Timeline from "./Timeline";
 import PdfDownload from "../../images/pdf-download.png";
+import WabKinew from "../../images/wabkinew.jpg";
+import ReportImage from "../../images/report-image.jpg";
 import "./Home.css";
 
 export default function Home() {
@@ -22,40 +24,53 @@ export default function Home() {
           <div className="reportContainer">
             <div className="boxOne">
               <img
-                src={PdfDownload}
+                src={ReportImage}
                 alt="PDF Download Icon"
-                className="pdfIcon"
+                className="reportImage"
               />
             </div>
             <div className="boxTwo">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 lacinia, erat nec dignissim iaculis, felis eros ornare lacus,
-                vitae aliquam libero tortor id ipsum. Vivamus sit amet dolor eu
-                dolor feugiat consequat et varius ex. Integer ut mi facilisis,
-                lacinia diam id, egestas libero. Sed rhoncus urna vitae
-                facilisis suscipit.
+                vitae aliquam libero tortor id ipsum.
               </p>
-              <button>
-                <a href="/">Executive Summary</a>{" "}
-                <img
-                  src={PdfDownload}
-                  alt="PDF Download Icon"
-                  className="pdfIcon"
-                />
-              </button>
-              <button>
-                <a href="/">Final Report</a>{" "}
-                <img
-                  src={PdfDownload}
-                  alt="PDF Download Icon"
-                  className="pdfIcon"
-                />
-              </button>
+              <div className="buttonContainer">
+                <button>
+                  <a href="/">Executive Summary</a>{" "}
+                  <img
+                    src={PdfDownload}
+                    alt="PDF Download Icon"
+                    className="pdfIcon"
+                  />
+                </button>
+                <button>
+                  <a href="/">Final Report</a>{" "}
+                  <img
+                    src={PdfDownload}
+                    alt="PDF Download Icon"
+                    className="pdfIcon"
+                  />
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className="events">Events</div>
+        <div className="events">
+          <h2>Virtual Town Hall with Wab Kinew On Cuts to Rural Manitoba</h2>
+          <div className="eventContainer">
+            <div className="boxThree">
+              <img
+                src={WabKinew}
+                alt="Wab Kinew portrait"
+                className="wabKinew"
+              />
+            </div>
+            <div className="boxFour">
+              <p>Wednesday, February 24</p>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="homeThree">
         <button className="button">Change.org</button>
