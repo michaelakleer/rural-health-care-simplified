@@ -8,6 +8,7 @@
 .Home .homeTwo {
   background: #ffffff;
   text-align: center;
+  margin: 50px 40px 50px 40px;
 }
 
 .Home .container {
@@ -47,12 +48,44 @@
   flex-direction: column;
 }
 
+.Home .buttonContainer button {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Home .boxOne p,
+.Home .boxTwo p {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .Home .eventContainer {
   display: flex;
-  justify-content: space-around;
 }
 
 .wabKinew {
-  width: 300px;
+  width: 250px;
   height: auto;
+}
+
+.events h2 {
+  margin-bottom: 5px;
+}
+
+.Home .change {
+  display: block;
+}
+
+.timelineContainer {
+  text-align: center;
+  padding: 40px 30px;
+  background: #f7f7f7;
+  line-height: 25px;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  border-radius: 8px;
+  border: 5px solid #0f9fc7;
+}
+
+.Home .changeContainer {
+  padding: 5px 2px;
 }
