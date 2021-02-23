@@ -5,17 +5,14 @@
   }
 
   .About .aboutOne {
-    padding: 14.25rem 150px 10rem 250px;
+    padding: 9.25rem 150px 4rem 250px;
     text-align: right;
     line-height: 50px;
   }
 
   .About .aboutTwo {
     padding: 30px;
-  }
-
-  .About .aboutThree {
-    padding: 30px;
+    display: flex;
   }
 
   .About h1 {
@@ -26,6 +23,11 @@
 
   .About .containerOne {
     display: flex;
+  }
+
+  .About .containerOne,
+  .About .containerTwo {
+    width: 50%;
   }
 
   .About .bioOne {
@@ -48,32 +50,6 @@
     margin-left: 20px;
     padding-top: 20px;
     color: #fff;
-  }
-
-  .About .containerThree {
-    display: flex;
-    margin: 20px;
-  }
-
-  .About .imgRow {
-    margin: 0 auto;
-  }
-
-  .About .bioBox {
-    margin: 5px;
-
-    padding: 30px;
-    border-radius: 5px;
-  }
-
-  .About .imageThree,
-  .About .imageFour,
-  .About .imageFive {
-    margin-bottom: 8px;
-  }
-
-  .containerThree p {
-    text-align: justify;
   }
 }
 
@@ -122,29 +98,6 @@
     text-align: justify;
     margin-left: 20px;
     color: #fff;
-  }
-
-  .About .containerThree {
-    display: flex;
-    margin: 5px;
-  }
-
-  .About .imgRow {
-    margin: 0 auto;
-  }
-
-  .About .bioBox {
-    padding: 30px;
-  }
-
-  .About .imageThree,
-  .About .imageFour,
-  .About .imageFive {
-    margin-bottom: 8px;
-  }
-
-  .containerThree p {
-    text-align: center;
   }
 }
 

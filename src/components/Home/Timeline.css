@@ -4,10 +4,12 @@
   margin-bottom: 50px;
   color: #4cb5d3;
   text-shadow: 2px 2px #cdcdcd;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .Timeline ul {
   color: #585858;
+  list-style: square;
 }
 
 .Timeline h2 {

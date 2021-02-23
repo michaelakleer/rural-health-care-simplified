@@ -21,7 +21,7 @@
   display: grid;
 }
 
-.Home h1 {
+.Home .opening {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
@@ -33,6 +33,7 @@
   padding: 20px 50px;
   border-radius: 8px;
   background: #eeeeee;
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
 }
 
 .Home .pdfs {
@@ -69,13 +70,15 @@
 }
 
 .Home .reportImage {
-  padding-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
 }
 
 .wabKinew {
   width: 100%;
   height: auto;
-  padding-top: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
 }
 
 .Home .pdfIcon {
