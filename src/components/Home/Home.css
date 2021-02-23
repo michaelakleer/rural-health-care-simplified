@@ -75,32 +75,10 @@
 }
 
 .wabKinew {
-  width: 100%;
-  height: auto;
+  width: 188px;
+  height: 243px;
   border-radius: 8px;
   box-shadow: 2px 2px 2px rgb(0 0 0 / 30%);
-}
-
-.Home .pdfIcon {
-  width: 25px;
-  height: auto;
-}
-
-.Home .buttonContainer {
-  display: flex;
-  flex-direction: column;
-}
-
-.Home .buttonContainer button {
-  width: 50%;
-  margin: 8px auto;
-  font-size: 30px;
-}
-
-.Home .boxOne p,
-.Home .boxTwo p {
-  width: 75%;
-  margin: 0 auto;
 }
 
 .Home .eventContainer {
@@ -110,6 +88,30 @@
 
 .events h2 {
   margin-bottom: 5px;
+}
+
+.Home .buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.Home .buttonContainer button {
+  margin: 8px auto;
+  font-size: 20px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.Home .boxOne p,
+.Home .boxTwo p {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Home .pdfIcon {
+  width: 25px;
+  height: auto;
 }
 
 .Home .changeContainer {
