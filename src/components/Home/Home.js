@@ -12,12 +12,8 @@ export default function Home() {
     <div className="Home">
       <div className="homeOne">
         <h1 className="opening">
-          Etiam pellentesque tortor eu erat iaculis, a efficitur odio pretium.
-          Nunc sed justo lacus. Nam a faucibus tortor, quis venenatis ligula.
-          Curabitur fermentum ac dolor vel rhoncus. Pellentesque pretium neque
-          felis, in tempus lectus pellentesque eget. Vivamus a lobortis metus.
-          Donec vehicula lacinia turpis, quis tristique eros condimentum
-          sodales.
+          Advocating for community-engagement, consent and collaboration on
+          health care delivery in rural settings.
         </h1>
       </div>
       <div className="homeTwo">
@@ -32,40 +28,63 @@ export default function Home() {
               />
             </div>
             <div className="boxTwo">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                lacinia, erat nec dignissim iaculis, felis eros ornare lacus,
-                vitae aliquam libero tortor id ipsum.
-              </p>
+              <div className="execLink">
+                <a
+                  href={ExecSummary}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link"
+                >
+                  Executive Summary{" "}
+                  <img
+                    src={PdfDownload}
+                    alt="PDF Download Icon"
+                    className="pdfIcon"
+                  />
+                </a>{" "}
+              </div>
+              <div className="finalLink">
+                <a
+                  href={FinalReport}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link"
+                >
+                  Final Report
+                  <img
+                    src={PdfDownload}
+                    alt="PDF Download Icon"
+                    className="pdfIcon"
+                  />
+                </a>{" "}
+              </div>
             </div>
           </div>
-          <div className="buttonContainer">
-            <button>
-              <a href={ExecSummary} target="_blank" rel="noreferrer">
-                Executive Summary{" "}
-                <img
-                  src={PdfDownload}
-                  alt="PDF Download Icon"
-                  className="pdfIcon"
-                />
-              </a>{" "}
-            </button>
-            <button>
-              <a href={FinalReport} target="_blank" rel="noreferrer">
-                Final Report
-                <img
-                  src={PdfDownload}
-                  alt="PDF Download Icon"
-                  className="pdfIcon"
-                />
-              </a>{" "}
-            </button>
+          <div className="boxThree">
+            <p>
+              In 2017, Grandview Healthcare Solutions, a community advocacy
+              group from Grandview, Manitoba, commissioned a community research
+              project on the implications of emergency healthcare cuts within
+              their community. Researchers from McMaster University, with roots
+              in rural Manitoba and Ontario, undertook this study, analyzing
+              government reports and policies, and interviewing community
+              members. The results of this project, 'Keeping Rural Health Care
+              Close to Home' are shared here.
+            </p>
           </div>
         </div>
         <div className="events">
           <div className="eventContainer">
+            <h3 className="titleEvents">Events</h3>
+            <div className="eventTime">
+              <p>Wednesday, February 24, 2021 - 7 PM CST</p>
+              <h2>
+                Virtual Town Hall with Wab Kinew On Cuts to Rural Manitoba
+              </h2>
+            </div>
+          </div>
+          <div className="eventInfo">
             <div className="boxThree">
-              <h3 className="titleEvents">Events</h3>
               <img
                 src={WabKinew}
                 alt="Wab Kinew portrait"
@@ -73,13 +92,22 @@ export default function Home() {
               />
             </div>
             <div className="boxFour">
-              <h2>
-                Virtual Town Hall with Wab Kinew On Cuts to Rural Manitoba
-              </h2>
-              <p>Wednesday, February 24, 2021</p>
-              <p>7 PM UTC-06</p>
-
-              <button>More information</button>
+              <p>
+                Join the Leader of the Official Opposition in Manitoba for a
+                discussion on rural service cuts including health care cuts and
+                emergency room closures.
+              </p>
+              <br />
+              <p>
+                The event will also be streamed live on{" "}
+                <a
+                  href="https://www.facebook.com/WabKinew/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  facebook.com/WabKinew
+                </a>
+              </p>
             </div>
           </div>
         </div>
