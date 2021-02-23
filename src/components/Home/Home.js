@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="homeOne">
-        <h1>
+        <h1 className="opening">
           Etiam pellentesque tortor eu erat iaculis, a efficitur odio pretium.
           Nunc sed justo lacus. Nam a faucibus tortor, quis venenatis ligula.
           Curabitur fermentum ac dolor vel rhoncus. Pellentesque pretium neque

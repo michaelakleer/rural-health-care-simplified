@@ -4,7 +4,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="About">
-      <section className="aboutOne">
+      <div className="aboutOne">
         <h1>
           {" "}
           Mauris volutpat tempus gravida. Nulla aliquam enim quis fermentum
@@ -14,8 +14,8 @@ export default function About() {
           orci. Sed et felis at massa sodales semper. Nulla libero tellus,
           dignissim nec ullamcorper at, mattis et tortor.
         </h1>
-      </section>
-      <section className="aboutTwo">
+      </div>
+      <div className="aboutTwo">
         <div className="containerOne">
           <div className="imageOne">
             <figure className="image is-128x128">
@@ -41,8 +41,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
-      <section className="aboutThree">
         <div className="containerTwo">
           <div className="imageTwo">
             <figure className="image is-128x128">
@@ -63,68 +61,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </section>
-      <section className="aboutFour">
-        <div className="containerThree">
-          <div className="bioBox">
-            <div className="imageThree">
-              <figure className="image is-128x128 imgRow">
-                <img
-                  className="is-rounded"
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="portrait"
-                />
-              </figure>
-            </div>
-            <div className="bioThree">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
-                et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi.
-              </p>
-            </div>
-          </div>
-          <div className="bioBox">
-            <div className="imageFour">
-              <figure className="image is-128x128 imgRow">
-                <img
-                  className="is-rounded"
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="portrait"
-                />
-              </figure>
-            </div>
-            <div className="bioFour">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
-                et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi.
-              </p>
-            </div>
-          </div>
-          <div className="bioBox">
-            <div className="imageFive">
-              <figure className="image is-128x128 imgRow">
-                <img
-                  className="is-rounded"
-                  src="https://bulma.io/images/placeholders/128x128.png"
-                  alt="portrait"
-                />
-              </figure>
-            </div>
-            <div className="bioFive">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse scelerisque non velit in aliquam. Sed feugiat, arcu
-                et porta iaculis, erat ligula iaculis dolor, vitae eleifend
-                massa metus sed mi.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
   );
 }
