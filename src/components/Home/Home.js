@@ -3,6 +3,8 @@ import Timeline from "./Timeline";
 import PdfDownload from "../../images/pdf-download.png";
 import WabKinew from "../../images/wabkinew2.jpg";
 import ReportImage from "../../images/report-image.jpg";
+import ExecSummary from "../../pdfs/GV_Health_Report_Executive_Summary_Final.pdf";
+import FinalReport from "../../pdfs/Keeping_Rural_Health_Final_Report_Nov2020.pdf";
 import "./Home.css";
 
 export default function Home() {
@@ -30,31 +32,34 @@ export default function Home() {
               />
             </div>
             <div className="boxTwo">
-              <h2>Download Reports</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 lacinia, erat nec dignissim iaculis, felis eros ornare lacus,
                 vitae aliquam libero tortor id ipsum.
               </p>
-              <div className="buttonContainer">
-                <button>
-                  <a href="/">Executive Summary</a>{" "}
-                  <img
-                    src={PdfDownload}
-                    alt="PDF Download Icon"
-                    className="pdfIcon"
-                  />
-                </button>
-                <button>
-                  <a href="/">Final Report</a>{" "}
-                  <img
-                    src={PdfDownload}
-                    alt="PDF Download Icon"
-                    className="pdfIcon"
-                  />
-                </button>
-              </div>
             </div>
+          </div>
+          <div className="buttonContainer">
+            <button>
+              <a href={ExecSummary} target="_blank" rel="noreferrer">
+                Executive Summary{" "}
+                <img
+                  src={PdfDownload}
+                  alt="PDF Download Icon"
+                  className="pdfIcon"
+                />
+              </a>{" "}
+            </button>
+            <button>
+              <a href={FinalReport} target="_blank" rel="noreferrer">
+                Final Report
+                <img
+                  src={PdfDownload}
+                  alt="PDF Download Icon"
+                  className="pdfIcon"
+                />
+              </a>{" "}
+            </button>
           </div>
         </div>
         <div className="events">
