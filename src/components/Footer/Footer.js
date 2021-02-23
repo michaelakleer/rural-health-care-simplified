@@ -5,12 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <footer>
-        <div className="container">
-          <div className="title"> Keeping Health Care Close to Home - 2021</div>
-          <div className="contactButton">
-            <button className="button">Contact</button>
-          </div>
-        </div>
+        <div className="title"> Keeping Health Care Close to Home</div>
       </footer>
     </div>
   );

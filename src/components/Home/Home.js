@@ -1,7 +1,7 @@
 import React from "react";
 import Timeline from "./Timeline";
 import PdfDownload from "../../images/pdf-download.png";
-import WabKinew from "../../images/wabkinew.jpg";
+import WabKinew from "../../images/wabkinew2.jpg";
 import ReportImage from "../../images/report-image.jpg";
 import "./Home.css";
 

@@ -4,11 +4,11 @@ import "./Timeline.css";
 export default function Timeline() {
   return (
     <div className="Timeline">
-      <h2>Grandview Healthcare Solutions Timeline</h2>
+      <h1>Grandview Healthcare Solutions Timeline</h1>
       <ul>
         <li className="date">
           {" "}
-          <h3>July 27, 2017</h3>{" "}
+          <h2>July 27, 2017</h2>{" "}
           <p>
             Manitoba Government Health Minister Hon. Kelvin Goertzen announced
             future closures of EMS stations in Manitoba, with Grandview being
@@ -16,7 +16,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>August 22, 2017</h3>{" "}
+          <h2>August 22, 2017</h2>{" "}
           <p>
             Grandview held a Town Hall meeting to protest closure of Grandview
             EMS Station. Over 500 attended the meeting to express their
@@ -24,7 +24,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>September 2017</h3>{" "}
+          <h2>September 2017</h2>{" "}
           <p>
             Grandview Healthcare Solutions formed as a group to organize support
             for maintaining Grandview EMS Station and Hospital. Group met with
@@ -37,7 +37,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>November 25, 2017</h3>{" "}
+          <h2>November 25, 2017</h2>{" "}
           <p>
             Grandview and Tootinaowaziibeeng held a Fall Feast at the Kinsman
             Hall that raised $10,000 to support the work of Grandview Healthcare
@@ -46,7 +46,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>December 6, 2017</h3>{" "}
+          <h2>December 6, 2017</h2>{" "}
           <p>
             {" "}
             Dr. Jon Gerrard, MLA for River Heights presented the Grandview
@@ -55,7 +55,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>2018</h3>{" "}
+          <h2>2018</h2>{" "}
           <p>
             Arrangements were made to have a research team from McMaster
             University develop a report to answer the question, “Why Does the
@@ -67,7 +67,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>2018-2020</h3>{" "}
+          <h2>2018-2020</h2>{" "}
           <p>
             The Stewardship Committee of Grandview Healthcare Solutions
             continued to advocate for healthcare services close to home for
@@ -80,7 +80,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>March-September 2020</h3>{" "}
+          <h2>March-September 2020</h2>{" "}
           <p>
             Fundraising was done to purchase equipment for the Grandview Medical
             Clinic to be better equipped to handle possible Covid 19 outbreaks.
@@ -89,7 +89,7 @@ export default function Timeline() {
           </p>
         </li>
         <li className="date">
-          <h3>November/December 2020</h3>{" "}
+          <h2>November/December 2020</h2>{" "}
           <p>
             November 25, Prairie Mountain Health announced the closure of
             Grandview District Hospital effective November 26, to move hospital
