@@ -8,7 +8,16 @@
 .Home .homeTwo {
   background: #ffffff;
   text-align: center;
-  margin: 50px 40px 50px 40px;
+  padding: 50px 40px 0 40px;
+  display: flex;
+}
+
+.Home .homeThree {
+  margin: 50px 0;
+}
+
+.Home .homeFour {
+  padding: 30px 40px;
 }
 
 .Home .container {
@@ -23,18 +32,39 @@
 
 .Home .pdfs,
 .Home .events {
-  float: left;
   width: 50%;
-  text-align: center;
-  padding: 30px;
+  border: 5px solid #0f9fc7;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.Home .pdfs h2,
+.Home .events h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 .Home .reportContainer {
   display: flex;
 }
 
+.Home .reportContainer .boxTwo {
+  padding-top: 50px;
+}
+
+.Home .reportContainer .boxTwo p {
+  padding-bottom: 20px;
+}
+
 .Home .reportImage {
-  width: 100%;
+  width: 85%;
+  height: auto;
+}
+
+.wabKinew {
+  width: 250px;
   height: auto;
 }
 
@@ -49,8 +79,8 @@
 }
 
 .Home .buttonContainer button {
-  margin: 0 auto;
   width: 50%;
+  margin: 8px auto;
 }
 
 .Home .boxOne p,
@@ -59,21 +89,36 @@
   margin: 0 auto;
 }
 
-.Home .eventContainer {
-  display: flex;
+.Home .events .boxThree {
+  padding: 5px 0 0 50px;
 }
 
-.wabKinew {
-  width: 250px;
-  height: auto;
+.Home .events .boxFour {
+  margin: 20px 100px;
+}
+
+.Home .eventContainer {
+  display: flex;
 }
 
 .events h2 {
   margin-bottom: 5px;
 }
 
-.Home .change {
+.Home .changeContainer {
   display: block;
+  margin: 0 auto;
+
+  width: 30%;
+  text-align: center;
+  background: #0f9fc7;
+  color: #fff;
+  padding: 50px 10px;
+  border-radius: 8px;
+}
+
+.Home .changeContainer h2 {
+  padding-bottom: 30px;
 }
 
 .timelineContainer {
@@ -84,8 +129,4 @@
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   border-radius: 8px;
   border: 5px solid #0f9fc7;
-}
-
-.Home .changeContainer {
-  padding: 5px 2px;
 }
