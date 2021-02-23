@@ -8,7 +8,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="Home">
-      <section className="homeOne">
+      <div className="homeOne">
         <h1>
           Etiam pellentesque tortor eu erat iaculis, a efficitur odio pretium.
           Nunc sed justo lacus. Nam a faucibus tortor, quis venenatis ligula.
@@ -17,8 +17,8 @@ export default function Home() {
           Donec vehicula lacinia turpis, quis tristique eros condimentum
           sodales.
         </h1>
-      </section>
-      <section className="homeTwo">
+      </div>
+      <div className="homeTwo">
         <div className="pdfs">
           <h2>Download Reports</h2>
           <div className="reportContainer">
@@ -69,17 +69,24 @@ export default function Home() {
             <div className="boxFour">
               <p>Wednesday, February 24, 2021</p>
               <p>7 PM UTC-06</p>
+
+              <button>More information</button>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="homeThree">
         <div className="changeContainer">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
           <button className="button change">Change.org</button>
         </div>
-
+      </div>
+      <div className="homeFour">
         <div className="timelineContainer">
           <Timeline />
         </div>
-      </section>
+      </div>
     </div>
   );
 }
