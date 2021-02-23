@@ -1,23 +1,20 @@
+.Home {
+  background: #4cb5d3;
+}
+
 .Home .homeOne {
-  padding: 18.25rem 150px 14rem 250px;
+  padding: 11.25rem 150px 6rem 250px;
   text-align: right;
-  background: #f7f7f7;
   line-height: 50px;
 }
 
 .Home .homeTwo {
-  background: #ffffff;
   text-align: center;
-  padding: 50px 40px 0 40px;
   display: flex;
 }
 
-.Home .homeThree {
-  margin: 50px 0;
-}
-
 .Home .homeFour {
-  padding: 30px 40px;
+  padding: 30px 200px;
 }
 
 .Home .container {
@@ -25,7 +22,7 @@
 }
 
 .Home h1 {
-  color: #000;
+  color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
 }
@@ -33,16 +30,24 @@
 .Home .pdfs,
 .Home .events {
   width: 50%;
-  border: 5px solid #0f9fc7;
+  padding: 20px 50px;
   border-radius: 8px;
-  margin: 0 10px;
+  background: #f7f7f7;
+}
+
+.Home .pdfs {
+  margin: 10px 20px 10px 60px;
+}
+
+.Home .events {
+  margin: 10px 60px 10px 20px;
 }
 
 .Home .pdfs h2,
 .Home .events h2 {
-  font-size: 20px;
+  color: #4cb5d3;
+  font-size: 30px;
   font-weight: 700;
-  text-decoration: underline;
   margin-bottom: 20px;
 }
 
@@ -51,7 +56,7 @@
 }
 
 .Home .reportContainer .boxTwo {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .Home .reportContainer .boxTwo p {
@@ -59,12 +64,13 @@
 }
 
 .Home .reportImage {
-  width: 85%;
+  width: 900px;
   height: auto;
+  padding-top: 30px;
 }
 
 .wabKinew {
-  width: 250px;
+  width: 90%;
   height: auto;
 }
 
@@ -89,16 +95,9 @@
   margin: 0 auto;
 }
 
-.Home .events .boxThree {
-  padding: 5px 0 0 50px;
-}
-
-.Home .events .boxFour {
-  margin: 20px 100px;
-}
-
 .Home .eventContainer {
   display: flex;
+  justify-content: center;
 }
 
 .events h2 {
@@ -108,13 +107,10 @@
 .Home .changeContainer {
   display: block;
   margin: 0 auto;
-
   width: 30%;
   text-align: center;
-  background: #0f9fc7;
   color: #fff;
   padding: 50px 10px;
-  border-radius: 8px;
 }
 
 .Home .changeContainer h2 {
@@ -128,5 +124,4 @@
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   border-radius: 8px;
-  border: 5px solid #0f9fc7;
 }
