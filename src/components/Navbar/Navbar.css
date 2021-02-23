@@ -13,21 +13,6 @@
   padding-right: 30px;
 }
 
-.contactButton {
-  color: #4cb5d3;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 16px;
-}
-
-.contactButton:hover {
-  color: #4cb5d3;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 16px;
-  border: 1px solid #4cb5d3;
-}
-
 .navbar-logo {
   color: #ffffff;
   justify-self: start;
@@ -37,6 +22,7 @@
   font-family: "Arimo", sans-serif;
   width: 100%;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .fa-react {
@@ -63,7 +49,7 @@
 }
 
 .nav-links:hover {
-  color: #2885c0;
+  color: #4cb5d3;
   background-color: #ffffff;
   border-radius: 4px;
   transition: all 0.2s ease-out;

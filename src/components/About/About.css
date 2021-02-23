@@ -1,7 +1,9 @@
 @media (min-width: 1025px) {
   .About {
     background: #4cb5d3;
-    height: 100%;
+    width: 100%;
+    min-height: 97vh;
+    background-size: cover;
   }
 
   .About .aboutOne {

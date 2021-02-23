@@ -1,12 +1,17 @@
 @media (min-width: 1025px) {
+  .Contact {
+    background: #4cb5d3;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+  }
+
   .Contact .contactOne {
     padding: 14.25rem 200px 10rem 250px;
     text-align: center;
-    background: #f7f7f7;
   }
 
   .container {
-    background: #0f9fc7;
     padding: 30px;
     border-radius: 8px;
   }

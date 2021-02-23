@@ -14,8 +14,8 @@
 .btn:hover {
   padding: 8px 20px;
   transition: all 0.3s ease-out;
-  background: #fff;
-  color: #685454;
+  background: #f7f7f7;
+  color: #4cb5d3;
   transition: 250ms;
 }
 
@@ -36,7 +36,8 @@
   padding: 8px 20px;
   border-radius: 4px;
   font-size: 16px;
-  color: #fff;
+  color: #4cb5d3;
+  font-weight: 700;
 }
 
 .btn--large {
