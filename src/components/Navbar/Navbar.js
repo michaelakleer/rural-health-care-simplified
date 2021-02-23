@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-import { Button } from "../Button.js";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -14,7 +13,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Title</h1>
+        <h1 className="navbar-logo">Keeping Rural Health Care Close to Home</h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
@@ -32,7 +31,7 @@ class Navbar extends Component {
           })}
         </ul>
         <Link to="/contact">
-          <Button>Contact</Button>{" "}
+          <button className="button contactButton">Contact</button>{" "}
         </Link>
       </nav>
     );

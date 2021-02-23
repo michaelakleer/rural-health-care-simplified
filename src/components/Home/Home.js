@@ -22,6 +22,7 @@ export default function Home() {
         <div className="pdfs">
           <div className="reportContainer">
             <div className="boxOne">
+              <h3 className="titleDownload">Download</h3>
               <img
                 src={ReportImage}
                 alt="PDF Download Icon"
@@ -30,7 +31,6 @@ export default function Home() {
             </div>
             <div className="boxTwo">
               <h2>Download Reports</h2>
-
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 lacinia, erat nec dignissim iaculis, felis eros ornare lacus,
@@ -60,6 +60,7 @@ export default function Home() {
         <div className="events">
           <div className="eventContainer">
             <div className="boxThree">
+              <h3 className="titleEvents">Events</h3>
               <img
                 src={WabKinew}
                 alt="Wab Kinew portrait"
