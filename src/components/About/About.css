@@ -1,8 +1,12 @@
 @media (min-width: 1025px) {
+  .About {
+    background: #4cb5d3;
+    height: 100%;
+  }
+
   .About .aboutOne {
     padding: 14.25rem 150px 10rem 250px;
     text-align: right;
-    background: #0f9fc7;
     line-height: 50px;
   }
 
@@ -12,7 +16,6 @@
 
   .About .aboutThree {
     padding: 30px;
-    background: #0f9fc7;
   }
 
   .About h1 {

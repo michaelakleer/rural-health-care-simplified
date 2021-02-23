@@ -63,14 +63,17 @@
   padding-bottom: 20px;
 }
 
-.Home .reportImage {
-  width: 900px;
+.Home .boxOne {
+  width: 200px;
   height: auto;
+}
+
+.Home .reportImage {
   padding-top: 10px;
 }
 
 .wabKinew {
-  width: 600px;
+  width: 100%;
   height: auto;
   padding-top: 10px;
 }
@@ -88,6 +91,7 @@
 .Home .buttonContainer button {
   width: 50%;
   margin: 8px auto;
+  font-size: 30px;
 }
 
 .Home .boxOne p,

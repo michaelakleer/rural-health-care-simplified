@@ -1,15 +1,27 @@
-.Timeline h2 {
-  font-size: 20px;
+.Timeline h1 {
+  font-size: 40px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  color: #4cb5d3;
+  text-shadow: 2px 2px #cdcdcd;
 }
 
-.Timeline h3 {
+.Timeline ul {
+  color: #585858;
+}
+
+.Timeline h2 {
   font-weight: 700;
-  text-decoration: underline;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .Timeline .date {
   padding: 10px 0;
-  text-align: left;
+  text-align: justify;
+}
+
+.Timeline li p {
+  padding: 0 40px;
 }

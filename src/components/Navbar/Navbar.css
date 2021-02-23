@@ -23,8 +23,9 @@
 .contactButton:hover {
   color: #4cb5d3;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 16px;
+  border: 1px solid #4cb5d3;
 }
 
 .navbar-logo {
