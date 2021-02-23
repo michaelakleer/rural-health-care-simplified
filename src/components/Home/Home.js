@@ -20,7 +20,6 @@ export default function Home() {
       </div>
       <div className="homeTwo">
         <div className="pdfs">
-          <h2>Download Reports</h2>
           <div className="reportContainer">
             <div className="boxOne">
               <img
@@ -30,6 +29,8 @@ export default function Home() {
               />
             </div>
             <div className="boxTwo">
+              <h2>Download Reports</h2>
+
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 lacinia, erat nec dignissim iaculis, felis eros ornare lacus,
@@ -37,7 +38,7 @@ export default function Home() {
               </p>
               <div className="buttonContainer">
                 <button>
-                  <a href="/">Executive Summary 5pp.</a>{" "}
+                  <a href="/">Executive Summary</a>{" "}
                   <img
                     src={PdfDownload}
                     alt="PDF Download Icon"
@@ -45,7 +46,7 @@ export default function Home() {
                   />
                 </button>
                 <button>
-                  <a href="/">Final Report 81pp.</a>{" "}
+                  <a href="/">Final Report</a>{" "}
                   <img
                     src={PdfDownload}
                     alt="PDF Download Icon"
@@ -57,7 +58,6 @@ export default function Home() {
           </div>
         </div>
         <div className="events">
-          <h2>Virtual Town Hall with Wab Kinew On Cuts to Rural Manitoba</h2>
           <div className="eventContainer">
             <div className="boxThree">
               <img
@@ -67,6 +67,9 @@ export default function Home() {
               />
             </div>
             <div className="boxFour">
+              <h2>
+                Virtual Town Hall with Wab Kinew On Cuts to Rural Manitoba
+              </h2>
               <p>Wednesday, February 24, 2021</p>
               <p>7 PM UTC-06</p>
 
