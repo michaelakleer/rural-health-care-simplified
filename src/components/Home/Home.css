@@ -3,7 +3,7 @@
 }
 
 .Home .homeOne {
-  padding: 11.25rem 150px 6rem 250px;
+  padding: 11.25rem 150px 10rem 250px;
   text-align: right;
   line-height: 50px;
 }
@@ -32,7 +32,7 @@
   width: 50%;
   padding: 20px 50px;
   border-radius: 8px;
-  background: #f7f7f7;
+  background: #eeeeee;
 }
 
 .Home .pdfs {
@@ -66,12 +66,13 @@
 .Home .reportImage {
   width: 900px;
   height: auto;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .wabKinew {
-  width: 90%;
+  width: 600px;
   height: auto;
+  padding-top: 10px;
 }
 
 .Home .pdfIcon {
@@ -124,4 +125,26 @@
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   border-radius: 8px;
+}
+
+.Home .titleDownload {
+  margin-top: -65px;
+  margin-left: -5px;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 5px 5px #4cb5d3;
+}
+
+.Home .titleEvents {
+  margin-top: -65px;
+  margin-left: -35px;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  text-shadow: 5px 5px #4cb5d3;
 }
