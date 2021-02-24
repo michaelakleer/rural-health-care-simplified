@@ -1,5 +1,6 @@
 import React from "react";
 import Timeline from "./Timeline";
+import SignUp from "./SignUp";
 import PdfDownload from "../../images/pdf-download.png";
 import WabKinew from "../../images/wabkinew2.jpg";
 import ReportImage from "../../images/report-image.jpg";
@@ -113,12 +114,17 @@ export default function Home() {
 
       <div className="homeThree">
         <div className="changeContainer">
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-          <button className="button change">Change.org</button>
+          <h2>
+            Join the movement to keep healthcare close to home. Register below
+            to keep in touch and learn more about how you can support rural
+            healthcare services.
+          </h2>
+          <SignUp />
         </div>
       </div>
       <div className="homeFour">
         <div className="timelineContainer">
+          <h1>Grandview Healthcare Solutions Timeline</h1>
           <Timeline />
         </div>
       </div>

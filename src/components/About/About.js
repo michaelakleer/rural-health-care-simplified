@@ -27,55 +27,56 @@ export default function About() {
           <div className="imageOne">
             <img src={Chelsea} alt="portrait" className="chelseaPhoto" />
           </div>
-          <div className="bioOne">
-            <p>
-              Dr. Gabel holds a <strong>Canada Research Chair</strong> in
-              Indigenous Well-Being, Community-Engagement, and Innovation and is
-              an Associate Professor in the Department of Health, Aging and
-              Society and the Indigenous Studies Program at McMaster University
-              in Hamilton, Ontario. Dr. Gabel is one of Canada’s leading
-              Indigenous scholars and has a unique set of perspectives and
-              expertise that has helped to advance Indigenous health and
-              well-being and self-determination efforts in Canada.
-            </p>
-            <br />
-            <p>
-              Dr. Gabel's research focuses on building partnerships with
-              Indigenous communities across Canada and internationally to design
-              and implement health and well-being promoting interventions as a
-              way to address inequities.{" "}
-            </p>
-            <br />
-            <p>
-              Dr. Gabel is the former Director of the{" "}
-              <strong>McMaster Indigenous Research Institute</strong>, an
-              Institute dedicated to Indigenous ways of knowing and research and
-              the former director of the{" "}
-              <strong>Indigenous Studies Program</strong>. Dr. Gabel is involved
-              in a number of research collaborations across Canada that
-              integrate her expertise in community-based participatory research,
-              Indigenous health policy, digital technology, intervention
-              research and Indigenous health and well-being. She is a member of
-              the{" "}
-              <strong>
-                Canadian Institutes of Health Research (CIHR) Standing Committee
-                on Ethics
-              </strong>{" "}
-              that provides high-level strategic advice on the ethical, legal
-              and socio-cultural dimensions of CIHR's mandate and a member of
-              the <strong>Indigenous Advisory Circle (IAC)</strong> whose
-              purpose is to advise the Federation of the Humanities and Social
-              Science and to inform its efforts to advance reconciliation in the
-              post-secondary education sector in general, and in the humanities
-              and social sciences in particular.
-            </p>
-            <br />
-            <p>
-              Dr. Gabel has published in top journals in areas such as:
-              community-engaged research, bioethics, Indigenous women,
-              Indigenous health policy and Indigenous health and well-being.
-            </p>
-          </div>
+
+          <p>
+            <span className="name">Dr. Gabel</span> holds a{" "}
+            <strong>Canada Research Chair</strong> in Indigenous Well-Being,
+            Community-Engagement, and Innovation and is an Associate Professor
+            in the Department of Health, Aging and Society and the Indigenous
+            Studies Program at McMaster University in Hamilton, Ontario. Dr.
+            Gabel is one of Canada’s leading Indigenous scholars and has a
+            unique set of perspectives and expertise that has helped to advance
+            Indigenous health and well-being and self-determination efforts in
+            Canada.
+          </p>
+          <br />
+          <p>
+            Dr. Gabel's research focuses on building partnerships with
+            Indigenous communities across Canada and internationally to design
+            and implement health and well-being promoting interventions as a way
+            to address inequities.{" "}
+          </p>
+          <br />
+          <p>
+            Dr. Gabel is the former Director of the{" "}
+            <strong>McMaster Indigenous Research Institute</strong>, an
+            Institute dedicated to Indigenous ways of knowing and research and
+            the former director of the{" "}
+            <strong>Indigenous Studies Program</strong>. Dr. Gabel is involved
+            in a number of research collaborations across Canada that integrate
+            her expertise in community-based participatory research, Indigenous
+            health policy, digital technology, intervention research and
+            Indigenous health and well-being. She is a member of the{" "}
+            <strong>
+              Canadian Institutes of Health Research (CIHR) Standing Committee
+              on Ethics
+            </strong>{" "}
+            that provides high-level strategic advice on the ethical, legal and
+            socio-cultural dimensions of CIHR's mandate and a member of the{" "}
+            <strong>Indigenous Advisory Circle (IAC)</strong> whose purpose is
+            to advise the Federation of the Humanities and Social Science and to
+            inform its efforts to advance reconciliation in the post-secondary
+            education sector in general, and in the humanities and social
+            sciences in particular.
+          </p>
+          <br />
+          <p>
+            Dr. Gabel has published in top journals in areas such as:
+            community-engaged research, bioethics, Indigenous women, Indigenous
+            health policy and Indigenous health and well-being.
+          </p>
+          <br />
+          <p>Email: gabelc@mcmaster.ca</p>
         </div>
         <div className="containerTwo">
           <div className="imageTwo">
@@ -83,12 +84,15 @@ export default function About() {
           </div>
           <div className="bioTwo">
             <p>
-              Alicia Powell is a settler scholar and educator from Binbrook,
-              Ontario. Alicia holds a PhD in Health and Society from McMaster
-              University, and studies rural health, health equity and healthcare
-              in Canada. Alicia works in conservation, education and recreation,
-              and is vice-president of her local agricultural society.
+              <span className="name">Alicia Powell</span> is a settler scholar
+              and educator from Binbrook, Ontario. Alicia holds a PhD in Health
+              and Society from McMaster University, and studies rural health,
+              health equity and healthcare in Canada. Alicia works in
+              conservation, education and recreation, and is vice-president of
+              her local agricultural society.
             </p>
+            <br />
+            <p>Email: powellak@mcmaster.ca</p>
           </div>
         </div>
       </div>
