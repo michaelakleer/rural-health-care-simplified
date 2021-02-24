@@ -27,41 +27,7 @@ export default function Home() {
                 className="reportImage"
               />
             </div>
-            <div className="boxTwo">
-              <div className="execLink">
-                <a
-                  href={ExecSummary}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link"
-                >
-                  Executive Summary{" "}
-                  <img
-                    src={PdfDownload}
-                    alt="PDF Download Icon"
-                    className="pdfIcon"
-                  />
-                </a>{" "}
-              </div>
-              <div className="finalLink">
-                <a
-                  href={FinalReport}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link"
-                >
-                  Final Report
-                  <img
-                    src={PdfDownload}
-                    alt="PDF Download Icon"
-                    className="pdfIcon"
-                  />
-                </a>{" "}
-              </div>
-            </div>
-          </div>
-          <div className="boxThree">
-            <p>
+            <p className="pdfDescription">
               In 2017, Grandview Healthcare Solutions, a community advocacy
               group from Grandview, Manitoba, commissioned a community research
               project on the implications of emergency healthcare cuts within
@@ -71,6 +37,38 @@ export default function Home() {
               members. The results of this project, 'Keeping Rural Health Care
               Close to Home' are shared here.
             </p>
+          </div>
+          <div className="boxThree">
+            <div className="execLink">
+              <a
+                href={ExecSummary}
+                target="_blank"
+                rel="noreferrer"
+                className="link"
+              >
+                Executive Summary{" "}
+                <img
+                  src={PdfDownload}
+                  alt="PDF Download Icon"
+                  className="pdfIcon"
+                />
+              </a>{" "}
+            </div>
+            <div className="finalLink">
+              <a
+                href={FinalReport}
+                target="_blank"
+                rel="noreferrer"
+                className="link"
+              >
+                Final Report
+                <img
+                  src={PdfDownload}
+                  alt="PDF Download Icon"
+                  className="pdfIcon"
+                />
+              </a>{" "}
+            </div>
           </div>
         </div>
         <div className="events">
