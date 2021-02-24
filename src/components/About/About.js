@@ -1,4 +1,6 @@
 import React from "react";
+import Chelsea from "./../../images/Chelsea_Professional_Photo.JPG";
+import Alicia from "./../../images/Alicia_Powell.jpg";
 import "./About.css";
 
 export default function About() {
@@ -23,49 +25,51 @@ export default function About() {
       <div className="aboutTwo">
         <div className="containerOne">
           <div className="imageOne">
-            <figure className="image is-128x128">
-              <img
-                className="is-rounded"
-                src="https://bulma.io/images/placeholders/128x128.png"
-                alt="portrait"
-              />
-            </figure>
+            <img src={Chelsea} alt="portrait" className="chelseaPhoto" />
           </div>
           <div className="bioOne">
             <p>
-              Dr. Gabel holds a Canada Research Chair in Indigenous Well-Being,
-              Community-Engagement, and Innovation and is an Associate Professor
-              in the Department of Health, Aging and Society and the Indigenous
-              Studies Program at McMaster University in Hamilton, Ontario. Dr.
-              Gabel is one of Canada’s leading Indigenous scholars and has a
-              unique set of perspectives and expertise that has helped to
-              advance Indigenous health and well-being and self-determination
-              efforts in Canada.
+              Dr. Gabel holds a <strong>Canada Research Chair</strong> in
+              Indigenous Well-Being, Community-Engagement, and Innovation and is
+              an Associate Professor in the Department of Health, Aging and
+              Society and the Indigenous Studies Program at McMaster University
+              in Hamilton, Ontario. Dr. Gabel is one of Canada’s leading
+              Indigenous scholars and has a unique set of perspectives and
+              expertise that has helped to advance Indigenous health and
+              well-being and self-determination efforts in Canada.
             </p>
+            <br />
             <p>
               Dr. Gabel's research focuses on building partnerships with
               Indigenous communities across Canada and internationally to design
               and implement health and well-being promoting interventions as a
               way to address inequities.{" "}
             </p>
+            <br />
             <p>
-              Dr. Gabel is the former Director of the McMaster Indigenous
-              Research Institute, an Institute dedicated to Indigenous ways of
-              knowing and research and the former director of the Indigenous
-              Studies Program. Dr. Gabel is involved in a number of research
-              collaborations across Canada that integrate her expertise in
-              community-based participatory research, Indigenous health policy,
-              digital technology, intervention research and Indigenous health
-              and well-being. She is a member of the Canadian Institutes of
-              Health Research (CIHR)Standing Committee on Ethicsthat provides
-              high-level strategic advice on the ethical, legal and
-              socio-cultural dimensions of CIHR's mandate and a member of the
-              Indigenous Advisory Circle(IAC) whose purpose is to advise the
-              Federation of the Humanities and Social Science and to inform its
-              efforts to advance reconciliation in the post-secondary education
-              sector in general, and in the humanities and social sciences in
-              particular.
+              Dr. Gabel is the former Director of the{" "}
+              <strong>McMaster Indigenous Research Institute</strong>, an
+              Institute dedicated to Indigenous ways of knowing and research and
+              the former director of the{" "}
+              <strong>Indigenous Studies Program</strong>. Dr. Gabel is involved
+              in a number of research collaborations across Canada that
+              integrate her expertise in community-based participatory research,
+              Indigenous health policy, digital technology, intervention
+              research and Indigenous health and well-being. She is a member of
+              the{" "}
+              <strong>
+                Canadian Institutes of Health Research (CIHR) Standing Committee
+                on Ethics
+              </strong>{" "}
+              that provides high-level strategic advice on the ethical, legal
+              and socio-cultural dimensions of CIHR's mandate and a member of
+              the <strong>Indigenous Advisory Circle (IAC)</strong> whose
+              purpose is to advise the Federation of the Humanities and Social
+              Science and to inform its efforts to advance reconciliation in the
+              post-secondary education sector in general, and in the humanities
+              and social sciences in particular.
             </p>
+            <br />
             <p>
               Dr. Gabel has published in top journals in areas such as:
               community-engaged research, bioethics, Indigenous women,
@@ -75,13 +79,7 @@ export default function About() {
         </div>
         <div className="containerTwo">
           <div className="imageTwo">
-            <figure className="image is-128x128">
-              <img
-                className="is-rounded"
-                src="https://bulma.io/images/placeholders/128x128.png"
-                alt="portrait"
-              />
-            </figure>
+            <img src={Alicia} alt="portrait" className="aliciaPhoto" />
           </div>
           <div className="bioTwo">
             <p>
