@@ -1,0 +1,13 @@
+.SignUp .email {
+  padding: 10px 0 10px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.SignUp .submit {
+  padding: 10px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+}
