@@ -9,7 +9,6 @@
   .About .aboutOne {
     padding: 9.25rem 150px 4rem 250px;
     text-align: right;
-
     color: #fff;
   }
 
@@ -19,7 +18,7 @@
 
   .aboutOne h1 {
     color: #fff;
-    font-family: "Ubuntu", sans-serif;
+
     font-size: 30px;
     text-decoration: underline;
   }
@@ -27,20 +26,26 @@
   .aboutOne h1,
   .aboutOne h2 {
     line-height: 50px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .aboutOne p {
     line-height: 25px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .About .containerOne {
-    display: flex;
-    margin: 10px 20px 20px 20px;
+    margin: 30px 120px 10px 120px;
+  }
+
+  .About .containerOne p {
+    color: #585858;
   }
 
   .About .containerTwo {
     display: flex;
-    margin: 30px 20px 10px 20px;
+    margin: 30px 120px 10px 120px;
   }
 
   .About .containerOne,
@@ -49,12 +54,6 @@
     border-radius: 8px;
     background: #eeeeee;
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
-  }
-
-  .About .bioOne {
-    margin-left: 20px;
-    padding-top: 20px;
-    text-align: justify;
   }
 
   .About .imageOne,
@@ -66,18 +65,26 @@
     text-align: justify;
     margin-left: 20px;
     padding-top: 20px;
+    color: #585858;
   }
 
   .About .chelseaPhoto {
-    width: 300px;
+    float: left;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+  .About .aliciaPhoto {
+    width: 200px;
     height: auto;
     border-radius: 8px;
   }
 
-  .About .aliciaPhoto {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
+  .About .name {
+    font-size: 30px;
+    font-weight: 700;
   }
 }
 

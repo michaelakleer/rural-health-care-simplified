@@ -14,7 +14,7 @@
 }
 
 .Home .homeFour {
-  padding: 30px 200px;
+  padding: 30px 60px;
 }
 
 .Home .container {
@@ -150,7 +150,7 @@
 .Home .changeContainer {
   display: block;
   margin: 0 auto;
-  width: 30%;
+  width: 50%;
   text-align: center;
   color: #fff;
   padding: 50px 10px;
@@ -166,11 +166,19 @@
 
 .timelineContainer {
   text-align: center;
-  padding: 40px 30px;
+  padding: 40px 0;
   background: #f7f7f7;
   line-height: 25px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   border-radius: 8px;
+}
+
+.timelineContainer h1 {
+  color: #4cb5d3;
+  padding-bottom: 80px;
+  text-shadow: 2px 2px #cdcdcd;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .Home .titleDownload {
