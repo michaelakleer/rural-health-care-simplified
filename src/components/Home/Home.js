@@ -1,8 +1,8 @@
 import React from "react";
 import Timeline from "./Timeline";
 import SignUp from "./SignUp";
-import PdfDownload from "../../images/pdf-download.png";
-import WabKinew from "../../images/wabkinew2.jpg";
+import PdfDownload from "../../images/icon-pdf.png";
+import WabKinew from "../../images/wabkinew.jpg";
 import ReportImage from "../../images/report-image.jpg";
 import ExecSummary from "../../pdfs/GV_Health_Report_Executive_Summary_Final.pdf";
 import FinalReport from "../../pdfs/Keeping_Rural_Health_Final_Report_Nov2020.pdf";
@@ -96,7 +96,7 @@ export default function Home() {
                 discussion on rural service cuts including health care cuts and
                 emergency room closures.
               </p>
-              <br />
+
               <p>
                 The event will also be streamed live on{" "}
                 <a
@@ -107,18 +107,28 @@ export default function Home() {
                   facebook.com/WabKinew
                 </a>
               </p>
+              <p>
+                {" "}
+                <a
+                  href="https://www.facebook.com/events/1611328392392915/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit the facebook event here.
+                </a>
+              </p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="homeThree">
+        <h2>Join the movement to keep healthcare close to home.</h2>
         <div className="changeContainer">
-          <h2>
-            Join the movement to keep healthcare close to home. Register below
-            to keep in touch and learn more about how you can support rural
-            healthcare services.
-          </h2>
+          <h3>
+            Register below to keep in touch and learn more about how you can
+            support rural healthcare services.
+          </h3>
           <SignUp />
         </div>
       </div>

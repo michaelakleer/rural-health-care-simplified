@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <footer>
-        <div className="title"> Keeping Health Care Close to Home</div>
+        <div className="title"> © 2021 Keeping Health Care Close to Home</div>
       </footer>
     </div>
   );

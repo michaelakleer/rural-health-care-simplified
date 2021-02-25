@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { Button, Form } from "react-bootstrap";
 import "./SignUp.css";
 
 export default function SignUp() {
@@ -8,8 +9,8 @@ export default function SignUp() {
 
     emailjs
       .sendForm(
-        "service_ju1513s",
-        "template_hcednml",
+        "service_wsu775t",
+        "template_mlsvsux",
         e.target,
         "user_yOjaPfQXiDFbgaUro5NwH"
       )
@@ -26,18 +27,25 @@ export default function SignUp() {
 
   return (
     <div className="SignUp">
-      <div className="container">
-        <form onSubmit={sendEmail}>
-          <input type="text" className="name" placeholder="Name" name="name" />
-          <input
+      <Form onSubmit={sendEmail}>
+        <Form.Group>
+          <Form.Label className="signupLabel">Enter your name:</Form.Label>
+          <Form.Control type="text" placeholder="Your name" name="name" />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label className="signupLabel">
+            Enter you email address:
+          </Form.Label>
+          <Form.Control
             type="email"
-            className="email"
-            placeholder="Email Address"
+            placeholder="example@gmail.com"
             name="email"
           />
-          <input type="submit" className="btn btn-info" value="Submit" />
-        </form>
-      </div>
+        </Form.Group>
+        <Button variant="light" type="submit">
+          Submit
+        </Button>
+      </Form>
     </div>
   );
 }

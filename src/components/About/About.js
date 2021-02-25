@@ -1,6 +1,6 @@
 import React from "react";
-import Chelsea from "./../../images/Chelsea_Professional_Photo.JPG";
-import Alicia from "./../../images/Alicia_Powell.jpg";
+import Chelsea from "./../../images/cgabel.jpg";
+import Alicia from "./../../images/apowell.jpg";
 import "./About.css";
 
 export default function About() {
@@ -27,8 +27,7 @@ export default function About() {
           <div className="imageOne">
             <img src={Chelsea} alt="portrait" className="chelseaPhoto" />
           </div>
-
-          <p>
+          <p className="firstParagraph">
             <span className="name">Dr. Gabel</span> holds a{" "}
             <strong>Canada Research Chair</strong> in Indigenous Well-Being,
             Community-Engagement, and Innovation and is an Associate Professor
@@ -39,14 +38,12 @@ export default function About() {
             Indigenous health and well-being and self-determination efforts in
             Canada.
           </p>
-          <br />
           <p>
             Dr. Gabel's research focuses on building partnerships with
             Indigenous communities across Canada and internationally to design
             and implement health and well-being promoting interventions as a way
             to address inequities.{" "}
           </p>
-          <br />
           <p>
             Dr. Gabel is the former Director of the{" "}
             <strong>McMaster Indigenous Research Institute</strong>, an
@@ -69,14 +66,14 @@ export default function About() {
             education sector in general, and in the humanities and social
             sciences in particular.
           </p>
-          <br />
           <p>
             Dr. Gabel has published in top journals in areas such as:
             community-engaged research, bioethics, Indigenous women, Indigenous
             health policy and Indigenous health and well-being.
           </p>
-          <br />
-          <p>Email: gabelc@mcmaster.ca</p>
+          <p>
+            Email: <a href="mailto:gabelc@mcmaster.ca">gabelc@mcmaster.ca</a>
+          </p>
         </div>
         <div className="containerTwo">
           <div className="imageTwo">
@@ -91,8 +88,10 @@ export default function About() {
               conservation, education and recreation, and is vice-president of
               her local agricultural society.
             </p>
-            <br />
-            <p>Email: powellak@mcmaster.ca</p>
+            <p>
+              Email:{" "}
+              <a href="mailto:kleer.michaela@gmail.com">powellak@mcmaster.ca</a>
+            </p>
           </div>
         </div>
       </div>
