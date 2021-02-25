@@ -25,7 +25,11 @@ export default function About() {
       <div className="aboutTwo">
         <div className="containerOne">
           <div className="imageOne">
-            <img src={Chelsea} alt="portrait" className="chelseaPhoto" />
+            <img
+              src={Chelsea}
+              alt="Chelsea portrait"
+              className="chelseaPhoto"
+            />
           </div>
           <p className="firstParagraph">
             <span className="name">Dr. Gabel</span> holds a{" "}
@@ -77,7 +81,7 @@ export default function About() {
         </div>
         <div className="containerTwo">
           <div className="imageTwo">
-            <img src={Alicia} alt="portrait" className="aliciaPhoto" />
+            <img src={Alicia} alt="Alicia portrait" className="aliciaPhoto" />
           </div>
           <div className="bioTwo">
             <p>
