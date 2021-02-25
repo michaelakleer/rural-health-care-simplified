@@ -12,7 +12,7 @@ export default function SignUp() {
         "service_wsu775t",
         "template_mlsvsux",
         e.target,
-        "user_yOjaPfQXiDFbgaUro5NwH"
+        "user_LClpG1a6YIZ5wnoRtIr41"
       )
       .then(
         (result) => {

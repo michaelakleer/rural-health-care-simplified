@@ -82,6 +82,7 @@ export default function Contact() {
                   as="textarea"
                   rows={3}
                   className="contactBoxSpecial"
+                  name="message"
                 />
               </Form.Group>
               <Button variant="primary" type="submit">
