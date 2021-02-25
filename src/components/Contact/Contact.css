@@ -29,18 +29,12 @@
     text-align: center;
   }
 
-  .Contact .contactBox,
-  .Contact .contactBoxSpecial {
-    background: #4cb5d3 !important;
-    color: #fff !important;
-  }
-
   .Contact .option {
     color: #fff !important;
   }
 
   .Contact ::placeholder {
-    color: #fff !important;
+    color: #575757 !important;
   }
 
   .Contact ::placeholder:focus {
@@ -49,7 +43,7 @@
 
   .Contact .btn {
     padding: 4px 10px !important;
-    background: #f7f7f7;
+    background: #fff;
     border-color: #4cb5d3;
     color: #4cb5d3;
   }
@@ -117,14 +111,7 @@
   }
 
   .Contact .contactBox {
-    background: #4cb5d3 !important;
-    color: #fff !important;
     text-align: center;
-  }
-
-  .Contact .contactBoxSpecial {
-    background: #4cb5d3 !important;
-    color: #fff !important;
   }
 
   .Contact .option {
@@ -132,7 +119,7 @@
   }
 
   .Contact ::placeholder {
-    color: #fff !important;
+    color: #575757 !important;
     text-align: center;
   }
 
@@ -206,14 +193,7 @@
   }
 
   .Contact .contactBox {
-    background: #4cb5d3 !important;
-    color: #fff !important;
     text-align: center;
-  }
-
-  .Contact .contactBoxSpecial {
-    background: #4cb5d3 !important;
-    color: #fff !important;
   }
 
   .Contact .option {
@@ -221,7 +201,7 @@
   }
 
   .Contact ::placeholder {
-    color: #fff !important;
+    color: #575757 !important;
     text-align: center;
   }
 
