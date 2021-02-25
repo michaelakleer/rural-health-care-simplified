@@ -80,6 +80,10 @@
     color: #585858;
     text-align: left !important;
   }
+
+  .Contact .message {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -165,6 +169,10 @@
     color: #585858;
     text-align: left !important;
   }
+
+  .Contact .message {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -249,5 +257,9 @@
   .Contact .label {
     color: #585858;
     text-align: left !important;
+  }
+
+  .Contact .message {
+    margin-bottom: 10px;
   }
 }

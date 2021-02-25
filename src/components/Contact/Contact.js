@@ -76,15 +76,15 @@ export default function Contact() {
                   className="contactBox"
                 />
               </Form.Group>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label className="label">Write message here:</Form.Label>
-                <Form.Control
-                  as="textarea"
-                  rows={3}
-                  className="contactBoxSpecial"
-                  name="message"
-                />
-              </Form.Group>
+              <Form.Label className="label">Write message here:</Form.Label>
+              <textarea
+                className="form-control message"
+                id=""
+                cols="30"
+                rows="5"
+                name="message"
+              ></textarea>
+
               <Button variant="primary" type="submit">
                 Submit
               </Button>
