@@ -1,11 +1,11 @@
 import React from "react";
-import "./Button.css";
+import "./NavbarContact.css";
 
 const STYLES = ["btn--primary", "btn--outline"];
 
 const SIZES = ["btn--medium", "btn--large"];
 
-export const Button = ({
+export const NavbarContact = ({
   children,
   type,
   onClick,
@@ -20,7 +20,7 @@ export const Button = ({
 
   return (
     <button
-      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      className={`navbarBtn ${checkButtonStyle} ${checkButtonSize}`}
       onClick={onClick}
       type={type}
     >

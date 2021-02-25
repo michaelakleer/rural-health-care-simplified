@@ -2,7 +2,7 @@
   --primary: #fff;
 }
 
-.btn {
+.navbarBtn {
   padding: 8px 20px;
   border-radius: 4px;
   outline: none;
@@ -11,7 +11,7 @@
   color: #4cb5d3;
 }
 
-.btn:hover {
+.navbarBtn:hover {
   padding: 8px 20px;
   transition: all 0.3s ease-out;
   background: #f7f7f7;
@@ -19,11 +19,11 @@
   transition: 250ms;
 }
 
-.btn--primary {
+.navbarBtn--primary {
   background-color: var(--primary);
 }
 
-.btn--outline {
+.navbarBtn--outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
@@ -32,7 +32,7 @@
   transition: all 0.3s ease-out;
 }
 
-.btn--medium {
+.navbarBtn--medium {
   padding: 8px 20px;
   border-radius: 4px;
   font-size: 16px;
@@ -40,7 +40,7 @@
   font-weight: 700;
 }
 
-.btn--large {
+.navbarBtn--large {
   padding: 12px 26px;
   border-radius: 4px;
   font-size: 20px;
