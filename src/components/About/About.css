@@ -7,7 +7,7 @@
   }
 
   .About .aboutOne {
-    padding: 9.25rem 150px 4rem 250px;
+    padding: 9.25rem 150px 4rem 150px;
     text-align: right;
     color: #fff;
   }
@@ -18,9 +18,7 @@
 
   .aboutOne h1 {
     color: #fff;
-
-    font-size: 30px;
-    text-decoration: underline;
+    text-shadow: 2px 2px #575757;
   }
 
   .aboutOne h1,
@@ -50,15 +48,10 @@
 
   .About .containerOne,
   .About .containerTwo {
-    padding: 20px 50px;
+    padding: 50px 50px;
     border-radius: 8px;
     background: #eeeeee;
     box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
-  }
-
-  .About .imageOne,
-  .About .imageTwo {
-    margin-right: 5px;
   }
 
   .About .bioTwo {
@@ -73,148 +66,260 @@
     width: 200px;
     height: auto;
     border-radius: 8px;
-    margin-right: 10px;
+    margin-right: 22px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
   }
 
   .About .aliciaPhoto {
     width: 200px;
     height: auto;
+    margin-right: 5px;
     border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
   }
 
   .About .name {
     font-size: 30px;
     font-weight: 700;
   }
+
+  .About .firstParagraph {
+    margin-top: 22px !important;
+  }
+
+  .About a {
+    color: #4cb5d3;
+  }
+
+  .About a:hover {
+    color: #4cb5d3;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .About {
+    background: #4cb5d3;
+    width: 100%;
+    min-height: 97vh;
+    background-size: cover;
+  }
+
   .About .aboutOne {
-    padding: 10rem 100px 6rem 100px;
+    padding: 7rem 18px 7rem 18px;
     text-align: center;
-    background: #0f9fc7;
-    line-height: 40px;
+    color: #fff;
   }
 
   .About .aboutTwo {
-    padding: 30px;
+    padding-bottom: 20px;
   }
 
-  .About .aboutThree {
-    padding: 30px;
-    background: #0f9fc7;
-  }
-
-  .About h1 {
+  .aboutOne h1 {
     color: #fff;
-    font-family: "Ubuntu", sans-serif;
+    text-shadow: 2px 2px #575757;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOne h2 {
     font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .aboutOne h1,
+  .aboutOne h2 {
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .aboutOne p {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .About .containerOne {
-    display: flex;
+    background: #eeeeee;
+    padding: 10px 20px;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
   }
 
-  .About .bioOne {
-    margin-left: 20px;
-  }
-
-  .About .imageOne,
-  .About .imageTwo {
-    margin-right: 5px;
-    margin-top: 10px;
+  .About .containerOne p {
+    color: #585858;
+    text-align: justify;
   }
 
   .About .containerTwo {
+    background: #eeeeee;
     display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .About .containerTwo p {
+    text-align: justify;
   }
 
   .About .bioTwo {
-    text-align: justify;
-    margin-left: 20px;
-    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    color: #585858;
+  }
+
+  .About .imageOne {
+    width: 200px;
+    height: auto;
+    margin: -50px auto 0;
+  }
+
+  .About .imageTwo {
+    height: auto;
+    margin: -50px auto 0;
+  }
+
+  .About .chelseaPhoto {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .About .aliciaPhoto {
+    width: 200px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .About .name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .About .firstParagraph {
+    margin-top: 22px !important;
+  }
+
+  .About a {
+    color: #4cb5d3;
+  }
+
+  .About a:hover {
+    color: #4cb5d3;
   }
 }
 
 @media (max-width: 767px) {
+  .About {
+    background: #4cb5d3;
+    width: 100%;
+    min-height: 97vh;
+    background-size: cover;
+  }
+
   .About .aboutOne {
-    padding: 7rem 18px 3rem 18px;
+    padding: 7rem 18px 7rem 18px;
     text-align: center;
-    background: #0f9fc7;
-    line-height: 40px;
+    color: #fff;
   }
 
   .About .aboutTwo {
-    padding: 30px;
+    padding-bottom: 20px;
   }
 
-  .About .aboutThree {
-    padding: 30px;
-    background: #0f9fc7;
-  }
-
-  .About h1 {
+  .aboutOne h1 {
     color: #fff;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
-  }
-
-  .About .containerOne {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .About .bioOne {
-    padding-top: 20px;
-    text-align: justify;
-  }
-
-  .About .imageOne {
-    margin: 0 auto;
-  }
-
-  .About .containerTwo {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .About .bioTwo {
-    text-align: justify;
-    padding-top: 20px;
-    color: #fff;
-  }
-
-  .About .imageTwo {
-    margin: 0 auto;
-  }
-
-  .About .containerThree {
-    display: flex;
-    margin: 20px;
-    flex-direction: column;
-  }
-
-  .About .imgRow {
-    margin: 0 auto;
-  }
-
-  .About .bioBox {
-    padding: 10px;
-  }
-
-  .About .imageThree,
-  .About .imageFour,
-  .About .imageFive {
+    text-shadow: 2px 2px #575757;
+    line-height: 50px;
     margin-bottom: 20px;
   }
 
-  .About .bioThree,
-  .About .bioFour,
-  .About .bioFive {
-    margin-bottom: 15px;
+  .aboutOne h2 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
   }
 
-  .containerThree p {
-    text-align: justify;
+  .aboutOne h1,
+  .aboutOne h2 {
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .aboutOne p {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .About .containerOne {
+    background: #eeeeee;
+    padding: 10px 10px;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .About .containerOne p {
+    color: #585858;
+    text-align: center;
+  }
+
+  .About .containerTwo {
+    background: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 30%);
+  }
+
+  .About .bioTwo {
+    text-align: center;
+    padding-top: 20px;
+    color: #585858;
+  }
+
+  .About .imageOne {
+    width: 200px;
+    height: auto;
+    margin: -50px auto 0;
+  }
+
+  .About .imageTwo {
+    height: auto;
+    margin: -50px auto 0;
+  }
+
+  .About .chelseaPhoto {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .About .aliciaPhoto {
+    width: 200px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 30%);
+  }
+
+  .About .name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .About .firstParagraph {
+    margin-top: 22px !important;
+  }
+
+  .About a {
+    color: #4cb5d3;
+  }
+
+  .About a:hover {
+    color: #4cb5d3;
   }
 }
